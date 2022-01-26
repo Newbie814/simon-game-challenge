@@ -17,12 +17,12 @@ body {
 }
 
 .btn {
-  margin: 25px;
+  margin: 10px;
   display: inline-block;
-  height: 200px;
-  width: 200px;
+  height: 225px;
+  width: 225px;
   border: 10px solid black;
-  border-radius: 20%;
+  
 }
 
 .game-over {
@@ -32,20 +32,23 @@ body {
 
 .red {
   background-color: rgb(153, 7, 7);
+  border-radius: 20% 100% 20% 20%;
 }
 
 .green {
   background-color: rgb(1, 85, 1);
+  border-radius: 100% 20% 20% 20%;
 }
 
 .blue {
   background-color: rgb(3, 3, 155);
+  border-radius: 20% 20% 100% 20%;
 }
 
 .yellow {
   background-color: rgb(221, 221, 37);
+  border-radius: 20% 20% 20% 100%;
 }
-
 .pressed {
   box-shadow: 0 0 20px white;
   background-color: grey;
